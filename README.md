@@ -1,7 +1,9 @@
-# websocket-wizards
-This is vanilla-wizards + web sockets.
+# websocket-wizardry
+Boilerplate code for gettings started with esp8266 websocket client and nodejs websocket server.
 
-Everything happens in a \*nix terminal; server is run once, clients are added as needed.
+# wss.js
+This server simply responds to every client message with a simple message + incrementing number for each message received.
 
-Vanilla-wizards is single player and single file.
-Websocket-wizards is multiplayer and separates the client and server into their own files.
+# esp8266WebsocketClient.ino
+
+This is an arduino sketch that establishes a connection to the server and sends a message every few seconds containing only the number "61".
