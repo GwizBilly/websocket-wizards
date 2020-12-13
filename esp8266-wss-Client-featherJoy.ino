@@ -27,8 +27,8 @@ Adafruit_ST7789 tft = Adafruit_ST7789(TFT_CS, TFT_DC, TFT_RST);
 
 #include <ArduinoWebsockets.h>
 #include <ESP8266WiFi.h>
-const char* ssid = "VIRGIN187";
-const char* password = "DEEED699";
+const char* ssid = "";
+const char* password = "";
 const char* websockets_connection_string = "wss://swimmable-swallow-5092.dataplicity.io/"; 
 // This fingerprint(thumbfrint) is wizards at https://swimmable-swallow-5092.dataplicity.io/
 //"58 3b ef be 28 e8 47 b1 02 3f 89 50 3b 67 70 7c b8 be 53 60"
